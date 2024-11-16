@@ -153,7 +153,7 @@ def do_experiments(start, end, step_num):
 
     # Implement: Plot beta1 / beta2 (Slope)
     plt.subplot(3, 3, 4)
-    plt.plot(shift_distances,[-x for x in slope_list], marker='o', label='Slope (Beta1 / Beta2)', color='orange')
+    plt.plot(shift_distances,[-x for x in slope_list], marker='o', label='Slope (Beta1 / Beta2)', color='purple')
     plt.title("Shift Distance vs Beta1 / Beta2 (Slope)")
     plt.xlabel("Shift Distance")
     plt.ylabel("Beta1 / Beta2")
